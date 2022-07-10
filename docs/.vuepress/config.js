@@ -38,6 +38,14 @@ module.exports = {
           },
         ],
       },
+      {
+        title: 'Translation',
+        path: "/article/translation/solid-principle",
+        collapsable: false, // 不折叠
+        children: [
+          { title: "solid-principle", path: "/article/translation/solid-principle" },
+        ]
+      }
     ],
   },
   locales: {
